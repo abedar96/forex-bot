@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: forex-ta-bot
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: BOT_TOKEN
+        value: "7005645210:AAEaj5QBk1e7SdyQNt5gTZV2t44quWbv8o8"
+    plan: free
